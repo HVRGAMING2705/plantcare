@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plantcare_plant_watering_reminder_app"
+version = "0.1.0"
+description = "A fully functional plant care app that allows users to track plants, set watering schedules, and get reminders. A working plant app with plant tracking, watering reminders, and care history."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
